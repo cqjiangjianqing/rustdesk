@@ -604,11 +604,11 @@ class App: Reactor.Component
     }
 
     event click $(button#connect) {
-        this.newRemote("connect");
+       // this.newRemote("connect");
     }
 
     event click $(button#file-transfer) {
-        this.newRemote("file-transfer");
+       // this.newRemote("file-transfer");
     }
 
     function newRemote(type) {
